@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Material Admin</title>
+    <title>Patient Finder</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../../node_modules/mdi/css/materialdesignicons.min.css">
 
@@ -39,12 +39,7 @@
                                 <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">desktop_mac</i> Dashboard
                             </a>
                         </div>
-                        <!-- <div class="mdc-list-item mdc-drawer-item">
-              <a class="mdc-drawer-link" href="pages/forms/basic-forms.html">
-                <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
-                Forms
-              </a>
-            </div> -->
+
                         <div class="mdc-list-item mdc-drawer-item" href="#" data-toggle="expansionPanel" target-panel="ui-sub-menu">
                             <a class="mdc-drawer-link" href="#">
                                 <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">dashboard</i> Configuration
@@ -174,7 +169,7 @@
                                                 <div class="nav-wrapper">
                                                     <ul role="tablist" class="nav nav-pills nav-pills-circle">
                                                         <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Add Hospital">
-                                                            <a data-toggle="tab" role="tab" href="../forms/department.html" class="nav-link active" aria-selected="true" style="color: #fff ;
+                                                            <a data-toggle="tab" role="tab" href="../forms/hospital.html" class="nav-link active" aria-selected="true" style="color: #fff ;
                                                         background-color:#00a9f4 !important;">
 
 
@@ -182,7 +177,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a data-toggle="tab" role="tab" href="../forms/editDepartment.html" class="nav-link">
+                                                            <a data-toggle="tab" role="tab" href="../forms/editHospital.html" class="nav-link">
                                                                 <div><span class="nav-link-icon d-block"><i class="mdi mdi-delete"></i></span></div>
                                                             </a>
                                                         </li>
@@ -241,7 +236,7 @@
                                             <td>453643</td>
                                             <td>300</td>
                                             <td>
-
+                                                <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-heart text-blue"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-forum text-yellow"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-delete text-red"></i></div>
                                             </td>
@@ -256,7 +251,7 @@
                                             <td>345623</td>
                                             <td>546</td>
                                             <td>
-
+                                                <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-heart text-blue"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-forum text-yellow"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-delete text-red"></i></div>
                                             </td>
@@ -271,7 +266,7 @@
                                             <td>54662</td>
                                             <td>278</td>
                                             <td>
-
+                                                <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-heart text-blue"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-forum text-yellow"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-delete text-red"></i></div>
                                             </td>
@@ -286,7 +281,7 @@
                                             <td>453643</td>
                                             <td>300</td>
                                             <td>
-
+                                                <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-heart text-blue"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-forum text-yellow"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-delete text-red"></i></div>
                                             </td>
@@ -301,7 +296,7 @@
                                             <td>345723</td>
                                             <td>350</td>
                                             <td>
-
+                                                <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-heart text-blue"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-forum text-yellow"></i></div>
                                                 <div class="col mdc-button" data-mdc-auto-init="MDCRipple"><i class="mdi mdi-delete text-red"></i></div>
                                             </td>
@@ -312,84 +307,6 @@
                         </div>
 
 
-
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-  </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
-              <div class="mdc-card">
-                <section class="mdc-card__primary">
-                  <h1 class="mdc-card__title mdc-card__title--large">Radio</h1>
-                </section>
-                <section class="mdc-card__supporting-text">
-                  <div class="template-demo">
-                    <div class="mdc-form-field">
-                      <div class="mdc-radio" data-mdc-auto-init="MDCRipple">
-                        <input class="mdc-radio__native-control" type="radio" id="ex0-default-radio1" checked name="ex0-default">
-                        <div class="mdc-radio__background">
-                          <div class="mdc-radio__outer-circle"></div>
-                          <div class="mdc-radio__inner-circle"></div>
-                        </div>
-                      </div>
-                      <label id="ex0-default-radio1-label" for="ex0-default-radio1">Default Radio 1</label>
-                    </div>
-                    <div class="mdc-form-field">
-                      <div class="mdc-radio" data-mdc-auto-init="MDCRipple">
-                        <input class="mdc-radio__native-control" type="radio" id="ex0-default-radio2" name="ex0-default">
-                        <div class="mdc-radio__background">
-                          <div class="mdc-radio__outer-circle"></div>
-                          <div class="mdc-radio__inner-circle"></div>
-                        </div>
-                      </div>
-                      <label id="ex0-default-radio2-label" for="ex0-default-radio2">Default Radio 2</label>
-                    </div>
-                    <div class="mdc-form-field">
-                      <div class="mdc-radio demo-radio--custom">
-                        <input class="mdc-radio__native-control" type="radio" id="ex1-custom-radio1" checked name="ex1-custom">
-                        <div class="mdc-radio__background">
-                          <div class="mdc-radio__outer-circle"></div>
-                          <div class="mdc-radio__inner-circle"></div>
-                        </div>
-                      </div>
-                      <label id="ex1-custom-radio1-label" for="ex1-custom-radio1">Custom Radio 1</label>
-                    </div>
-                    <div class="mdc-form-field">
-                      <div class="mdc-radio demo-radio--custom">
-                        <input class="mdc-radio__native-control" type="radio" id="ex1-custom-radio2" name="ex1-custom">
-                        <div class="mdc-radio__background">
-                          <div class="mdc-radio__outer-circle"></div>
-                          <div class="mdc-radio__inner-circle"></div>
-                        </div>
-                      </div>
-                      <label id="ex1-custom-radio2-label" for="ex1-custom-radio2">Custom Radio 2</label>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div> -->
                     </div>
                 </div>
             </main>
